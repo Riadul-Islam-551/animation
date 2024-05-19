@@ -38,11 +38,20 @@
   padding: 10px;
   cursor: pointer;
   animation-name: links_anim;
-  animation-duration: 0.7s;
+  animation-duration: 0.9s;
+  animation-timing-function:ease-out;
+}
+.head .nav ul .home a{
+  color: #049dda;
+  font-size: 1rem;
+}
+.head .nav ul .nav_links a:hover{
+  color:#00b7ff ;
+  text-decoration: underline;
 }
 @keyframes links_anim {
   from {
-    opacity: 0.5;
+    opacity: 0;
     transform: translateX(-10px) translateY(-10px);
   }
   to {
